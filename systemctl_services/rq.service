@@ -1,0 +1,11 @@
+
+Description=Service to start RQ.
+
+[Service]
+Type=simple
+User=junaid
+WorkingDirectory=/home/junaid/validator_backend
+ExecStart=/bin/bash /home/junaid/validator_backend/rq.sh
+
+[Install]
+WantedBy=multi-user.target

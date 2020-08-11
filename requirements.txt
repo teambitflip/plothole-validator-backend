@@ -1,0 +1,9 @@
+Flask
+numpy==1.16.4
+tensorflow
+keras
+redis
+rq
+pillow
+firebase_admin
+gunicorn
